@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar {
+  background: rgb(48, 49, 56);
   color: white;
+  display: flex;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  justify-content: space-between;
+  /* border: 1px solid red; */
 }
 
-.App-link {
-  color: #61dafb;
+.navlinks a {
+  margin-left: 40px;
+  color: aliceblue;
+  text-decoration: none;
+  transition: .3s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navlinks a:hover {
+  
+  color: rgb(97, 134, 255);
+  text-decoration: underline;
+}
+
+.homeContent {
+  padding-top: 50px;
+  text-align: center;
+
+}
+
+.homeContent p{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.homeContent a {
+  color: white;
+  background: darkblue;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+  transition: .3s;
+ 
+}
+
+.homeContent a:hover {
+
+  background: rgb(93, 93, 209);
+ 
+}
+
+
+
+.card {
+
+  /* border: 1px solid rgb(255, 255, 255); */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 5px;
+  width: fit-content;
+  padding-bottom: 40px;
+  margin: 0 auto;
+  
+}
+
+.card h2 {
+  margin-top: 15px;
+}
+
+.cardlist {
+  display: flex;
+}
+
+.getStarted {
+  margin-bottom: 100px;
 }
